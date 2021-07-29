@@ -1,0 +1,11 @@
+package TesteIf;
+
+public class TesteComIfs {
+
+	public static void main(String[] args) {
+		
+		System.out.println();
+		
+	}
+
+}

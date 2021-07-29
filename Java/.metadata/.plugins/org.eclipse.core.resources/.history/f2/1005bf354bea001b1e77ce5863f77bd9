@@ -1,0 +1,12 @@
+package encapsulamento;
+
+public class TestaValores {
+public static void main(String[] args) {
+	Conta conta = new Conta();
+	
+	conta.setAgencia(50);
+	conta.setNumero(12);
+	
+	System.out.println(conta.getAgencia());
+}
+}

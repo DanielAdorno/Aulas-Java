@@ -1,0 +1,8 @@
+package OrientacaoObjeto;
+
+public class TestaMetodos {
+public static void main(String[] args) {
+	Conta contaDoDaniel = new Conta();
+}
+}
+

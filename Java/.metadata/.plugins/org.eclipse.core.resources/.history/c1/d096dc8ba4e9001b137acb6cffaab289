@@ -1,0 +1,10 @@
+package OrientacaoObjeto;
+
+public class CriaConta {
+	public static void main(String[] args) {
+		Conta primeiraConta = new Conta();
+		primeiraConta.saldo = 1200.50;
+		System.out.println(primeiraConta);
+	}
+
+}

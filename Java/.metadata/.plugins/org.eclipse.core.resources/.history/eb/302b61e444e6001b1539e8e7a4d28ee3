@@ -1,0 +1,15 @@
+package TesteIf;
+
+public class TesteComIfs {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Testando Condicionias");
+		int idade = 25;
+		if (idade >= 18) {
+			System.out.println("Parabéns você é maior de Idade.");
+		}
+		
+	}
+
+}

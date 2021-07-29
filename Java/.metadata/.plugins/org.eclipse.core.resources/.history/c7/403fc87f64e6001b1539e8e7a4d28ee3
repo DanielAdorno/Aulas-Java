@@ -1,0 +1,21 @@
+package TesteIf;
+
+public class Boolean {
+
+	
+
+		public static void main(String[] args) {
+
+			System.out.println("Testando Condicionias");
+			int idade = 10;
+			int quantidadeDePessoas = 3;
+			boolean acompanhado = true;
+			if (idade >= 18 || quantidadeDePessoas >= 2) {
+				System.out.println("Pode entrar.");
+			} else {
+				
+				System.out.println("Desculpa, você ainda é menor e não está acompanhado.");
+			}
+
+		}
+	}

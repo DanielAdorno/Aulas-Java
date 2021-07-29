@@ -1,0 +1,21 @@
+package TesteIf;
+
+public class TesteComIfs {
+
+	public static void main(String[] args) {
+
+		System.out.println("Testando Condicionias");
+		int idade = 10;
+		int quantidadeDePessoas = 3;
+		if (idade >= 18) {
+			System.out.println("Pode entrar.");
+		} else {
+			if (quantidadeDePessoas >= 2) {
+				System.out.println("Você não tem mais que 18, mas está acompanhado.");
+			}else
+			
+			System.out.println("Desculpa, você ainda é menor.");
+		}
+
+	}
+}
